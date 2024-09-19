@@ -1,0 +1,6 @@
+docker.io:
+  username: ${USERNAME}
+  password: ${PASSWORD}
+registry.cn-hangzhou.aliyuncs.com:
+  username: ${ACR_USERNAME}
+  password: ${ACR_PASSWORD}
