@@ -1,11 +1,13 @@
 docker.io/flannel/flannel-cni-plugin:v1.5.1-flannel2: registry.cn-hangzhou.aliyuncs.com/kubeop/flannel-cni-plugin
 docker.io/flannel/flannel:/v0.25.\d$/: registry.cn-hangzhou.aliyuncs.com/kubeop/flannel
-docker.io/calico/kube-controllers:/v3.28.\d$/: registry.cn-hangzhou.aliyuncs.com/kubeop/kube-controllers
-docker.io/calico/node:/v3.28.\d$/: registry.cn-hangzhou.aliyuncs.com/kubeop/node
-docker.io/calico/cni:/v3.28.\d$/: registry.cn-hangzhou.aliyuncs.com/kubeop/cni
+docker.io/calico/kube-controllers:/v3.28.\d$/: registry.cn-hangzhou.aliyuncs.com/kubeop/calico-kube-controllers
+docker.io/calico/node:/v3.28.\d$/: registry.cn-hangzhou.aliyuncs.com/kubeop/calico-node
+docker.io/calico/cni:/v3.28.\d$/: registry.cn-hangzhou.aliyuncs.com/kubeop/calico-cni
 docker.io/cloudnativelabs/kube-router:/v2.2.\d$/: registry.cn-hangzhou.aliyuncs.com/kubeop/kube-router
 docker.io/coredns/coredns:/1.11.\d$/: registry.cn-hangzhou.aliyuncs.com/kubeop/coredns
-docker.io/nacos/nacos:/v2.4.\d$/: registry.cn-hangzhou.aliyuncs.com/kubeop/nacos
+docker.io/nacos/nacos-server:/v2.4.\d$/: registry.cn-hangzhou.aliyuncs.com/kubeop/nacos-server
+docker.io/sonatype/nexus3:/3.72.\d$/: registry.cn-hangzhou.aliyuncs.com/kubeop/nexus3
+docker.io/sonarqube:9-community: registry.cn-hangzhou.aliyuncs.com/kubeop/sonarqube
 registry.k8s.io/dns/k8s-dns-node-cache:1.23.1: registry.cn-hangzhou.aliyuncs.com/kubeop/k8s-dns-node-cache
 registry.k8s.io/metrics-server/metrics-server:/v0.7.\d$/: registry.cn-hangzhou.aliyuncs.com/kubeop/metrics-server
 registry.k8s.io/node-problem-detector/node-problem-detector:v0.8.19: registry.cn-hangzhou.aliyuncs.com/kubeop/node-problem-detector
