@@ -10,8 +10,9 @@ docker.io/nacos/nacos-peer-finder-plugin:1.1: registry.cn-hangzhou.aliyuncs.com/
 docker.io/sonatype/nexus3:/3.72.\d$/: registry.cn-hangzhou.aliyuncs.com/kubeop/nexus3
 docker.io/sonarqube:9-community: registry.cn-hangzhou.aliyuncs.com/kubeop/sonarqube
 docker.io/kiwigrid/k8s-sidecar:1.27.5: registry.cn-hangzhou.aliyuncs.com/kubeop/k8s-sidecar
-docker.io/docker:27-dind: registry.cn-hangzhou.aliyuncs.com/kubeop/docker
+docker.io/docker:27-dind,27-cli: registry.cn-hangzhou.aliyuncs.com/kubeop/docker
 docker.io/jenkins/inbound-agent:bookworm-jdk17,bookworm-jdk21: registry.cn-hangzhou.aliyuncs.com/kubeop/inbound-agent
+docker.io/sonarsource/sonar-scanner-cli:10.0,11.1: registry.cn-hangzhou.aliyuncs.com/kubeop/sonar-scanner-cli
 registry.k8s.io/dns/k8s-dns-node-cache:1.23.1: registry.cn-hangzhou.aliyuncs.com/kubeop/k8s-dns-node-cache
 registry.k8s.io/metrics-server/metrics-server:/v0.7.\d$/: registry.cn-hangzhou.aliyuncs.com/kubeop/metrics-server
 registry.k8s.io/node-problem-detector/node-problem-detector:v0.8.19: registry.cn-hangzhou.aliyuncs.com/kubeop/node-problem-detector
