@@ -37,3 +37,16 @@ docker.io/prom/mysqld-exporter:v0.15.1: registry.cn-hangzhou.aliyuncs.com/kubeop
 quay.io/prometheuscommunity/postgres-exporter:v0.15.0: registry.cn-hangzhou.aliyuncs.com/kubeop/postgres-exporter
 docker.io/oliver006/redis_exporter:v1.65.0: registry.cn-hangzhou.aliyuncs.com/kubeop/redis-exporter
 docker.io/prom/snmp-exporter:v0.26.0: registry.cn-hangzhou.aliyuncs.com/kubeop/snmp-exporter
+docker.io/longhornio/longhorn-manager:v1.7.2: registry.cn-hangzhou.aliyuncs.com/longhorn-system/longhorn-manager
+docker.io/longhornio/longhorn-engine:v1.7.2: registry.cn-hangzhou.aliyuncs.com/longhorn-system/longhorn-engine
+docker.io/longhornio/longhorn-instance-manager:v1.7.2: registry.cn-hangzhou.aliyuncs.com/longhorn-system/longhorn-instance-manager
+docker.io/longhornio/longhorn-share-manager:v1.7.2: registry.cn-hangzhou.aliyuncs.com/longhorn-system/longhorn-share-manager
+docker.io/longhornio/backing-image-manager:v1.7.2: registry.cn-hangzhou.aliyuncs.com/longhorn-system/backing-image-manager
+docker.io/longhornio/support-bundle-kit:v0.0.45: registry.cn-hangzhou.aliyuncs.com/longhorn-system/support-bundle-kit
+docker.io/longhornio/csi-attacher:v4.7.0: registry.cn-hangzhou.aliyuncs.com/longhorn-system/csi-attacher
+docker.io/longhornio/csi-provisioner:v4.0.1-20241007: registry.cn-hangzhou.aliyuncs.com/longhorn-system/csi-provisioner
+docker.io/longhornio/csi-node-driver-registrar:v2.12.0: registry.cn-hangzhou.aliyuncs.com/longhorn-system/csi-node-driver-registrar
+docker.io/longhornio/csi-resizer:v1.12.0: registry.cn-hangzhou.aliyuncs.com/longhorn-system/csi-resizer
+docker.io/longhornio/csi-snapshotter:v7.0.2-20241007: registry.cn-hangzhou.aliyuncs.com/longhorn-system/csi-snapshotter
+docker.io/longhornio/livenessprobe:v2.14.0: registry.cn-hangzhou.aliyuncs.com/longhorn-system/livenessprobe
+docker.io/longhornio/longhorn-ui:v1.7.2: registry.cn-hangzhou.aliyuncs.com/longhorn-system/longhorn-ui
