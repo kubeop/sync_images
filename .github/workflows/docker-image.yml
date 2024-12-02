@@ -8,13 +8,12 @@ on:
       - main
     paths:
       - 'images.yaml'
-      - '.github/workflows/*'
+
   pull_request:
     branches:
       - main
     paths:
       - 'images.yaml'
-      - '.github/workflows/*'
 
 jobs:
   build:

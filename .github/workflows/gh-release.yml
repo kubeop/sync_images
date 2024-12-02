@@ -1,0 +1,37 @@
+name: Release
+
+on:
+  push:
+    tags:
+      - "v*.*.*"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Download
+        if: startsWith(github.ref, 'refs/tags/')
+        run: |
+          wget https://dl.k8s.io/release/${{ github.ref_name }}/bin/linux/amd64/kubectl
+          wget https://dl.k8s.io/release/${{ github.ref_name }}/bin/linux/amd64/kube-apiserver
+          wget https://dl.k8s.io/release/${{ github.ref_name }}/bin/linux/amd64/kube-controller-manager
+          wget https://dl.k8s.io/release/${{ github.ref_name }}/bin/linux/amd64/kube-scheduler
+          wget https://dl.k8s.io/release/${{ github.ref_name }}/bin/linux/amd64/kubelet
+          wget https://dl.k8s.io/release/${{ github.ref_name }}/bin/linux/amd64/kube-proxy
+      
+      - name: Release
+        uses: softprops/action-gh-release@v2
+        if: startsWith(github.ref, 'refs/tags/')
+        with:
+          token: ${{ secrets.GIT_TOKEN }}
+          tag_name: ${{ github.ref_name }}
+          files: |
+            kubectl
+            kube-apiserver
+            kube-controller-manager
+            kube-scheduler
+            kubelet
+            kube-proxy
