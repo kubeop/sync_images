@@ -19,11 +19,11 @@ registry.k8s.io/node-problem-detector/node-problem-detector:v0.8.19: registry.cn
 registry.k8s.io/ingress-nginx/controller:v1.11.2: registry.cn-hangzhou.aliyuncs.com/kubeop/ingress-nginx-controller
 registry.k8s.io/ingress-nginx/kube-webhook-certgen:v1.4.3: registry.cn-hangzhou.aliyuncs.com/kubeop/kube-webhook-certgen
 nvcr.io/nvidia/k8s-device-plugin:/v0.16.\d$/: registry.cn-hangzhou.aliyuncs.com/kubeop/k8s-device-plugin
-docker.io/victoriametrics/vmstorage:/^v1.104.\d-cluster$/: registry.cn-hangzhou.aliyuncs.com/kubeop/vmstorage
-docker.io/victoriametrics/vmselect:/^v1.104.\d-cluster$/: registry.cn-hangzhou.aliyuncs.com/kubeop/vmselect
-docker.io/victoriametrics/vminsert:/^v1.104.\d-cluster$/: registry.cn-hangzhou.aliyuncs.com/kubeop/vminsert
-docker.io/victoriametrics/vmalert:/^v1.104.\d$/: registry.cn-hangzhou.aliyuncs.com/kubeop/vmalert
-docker.io/victoriametrics/vmagent:/^v1.104.\d$/: registry.cn-hangzhou.aliyuncs.com/kubeop/vmagent
+docker.io/victoriametrics/vmstorage:/^v1.108.\d-cluster$/: registry.cn-hangzhou.aliyuncs.com/kubeop/vmstorage
+docker.io/victoriametrics/vmselect:/^v1.108.\d-cluster$/: registry.cn-hangzhou.aliyuncs.com/kubeop/vmselect
+docker.io/victoriametrics/vminsert:/^v1.108.\d-cluster$/: registry.cn-hangzhou.aliyuncs.com/kubeop/vminsert
+docker.io/victoriametrics/vmalert:/^v1.108.\d$/: registry.cn-hangzhou.aliyuncs.com/kubeop/vmalert
+docker.io/victoriametrics/vmagent:/^v1.108.\d$/: registry.cn-hangzhou.aliyuncs.com/kubeop/vmagent
 quay.io/prometheus/blackbox-exporter:v0.25.0: registry.cn-hangzhou.aliyuncs.com/kubeop/blackbox-exporter
 ghcr.io/jimmidyson/configmap-reload:v0.14.0: registry.cn-hangzhou.aliyuncs.com/kubeop/configmap-reload
 quay.io/brancz/kube-rbac-proxy:v0.18.1: registry.cn-hangzhou.aliyuncs.com/kubeop/kube-rbac-proxy
