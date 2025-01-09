@@ -39,3 +39,8 @@ docker.io/longhornio/csi-resizer:v1.12.0: registry.cn-hangzhou.aliyuncs.com/long
 docker.io/longhornio/csi-snapshotter:v7.0.2-20241007: registry.cn-hangzhou.aliyuncs.com/longhorn-system/csi-snapshotter
 docker.io/longhornio/livenessprobe:v2.14.0: registry.cn-hangzhou.aliyuncs.com/longhorn-system/livenessprobe
 docker.io/longhornio/longhorn-ui:v1.7.2: registry.cn-hangzhou.aliyuncs.com/longhorn-system/longhorn-ui
+docker.io/library/postgres:17: registry.cn-hangzhou.aliyuncs.com/kubeop/postgres
+docker.io/library/mysql:8: registry.cn-hangzhou.aliyuncs.com/kubeop/mysql
+docker.io/library/redis:7: registry.cn-hangzhou.aliyuncs.com/kubeop/redis
+docker.io/library/mongo:7: registry.cn-hangzhou.aliyuncs.com/kubeop/mongo
+docker.io/library/caddy:2.8: registry.cn-hangzhou.aliyuncs.com/kubeop/caddy
